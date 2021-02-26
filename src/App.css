@@ -3,20 +3,17 @@
 *{
   font-family: "Poppins",sans-serif;
 }
-.App{
 
-  
-}
 .App{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   height: auto;
-  
   border-radius: 22px;
   margin-bottom: 50px;
   margin-top: 50px;
+ 
 }
  .textTMP{
   color: rgb(152, 90, 211);

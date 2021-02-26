@@ -24,6 +24,7 @@ function App() {
         )
       )
     })
+    alert('Xóa thành công');
   }
   function addTodo(e) {
     e.preventDefault()
@@ -32,7 +33,7 @@ function App() {
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       todo: todoInput
     })
-
+    alert('Thêm thành công');
   }
   return (
     <div className="App">

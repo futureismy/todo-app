@@ -8,9 +8,11 @@ export default function TodolistItem({todo,inprogress,id}) {
         db.collection("todos").doc(id).update({
             inprogress: !inprogress
         })
+        alert('Change status!!')
     }
     function deleteTodos(){
         db.collection("todos").doc(id).delete();
+        alert('Xóa thành công');
     }
     return (
         <div style={{display:'flex'}}>
