@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: "Poppins",sans-serif;
+}
+.App{
+
+  
+}
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: rgb(210, 233, 190);
+  width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 22px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+ .textTMP{
+  color: rgb(152, 90, 211);
+}
