@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import firebase from 'firebase'
 import { db } from './firebase_config';
 import TodolistItem from './TodolistItem'
+import Dashboard from './modal/dashboard';
 function App() {
   const [todos, setTodos] = useState([])
   const [todoInput, setTodoInPut] = useState('')
@@ -24,7 +25,7 @@ function App() {
         )
       )
     })
-    alert('Xóa thành công');
+    
   }
   function addTodo(e) {
     e.preventDefault()
@@ -52,6 +53,7 @@ function App() {
             todo={todo.todo} inprogress={todo.inprogress} id={todo.id} />
         })}
       </div>
+        <Dashboard />
     </div>
   );
 }
